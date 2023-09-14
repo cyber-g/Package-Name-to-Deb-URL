@@ -15,7 +15,8 @@
 
 # Examples: 
 # get https://github.com/mathworks-ref-arch/container-images/blob/main/matlab-deps/r2023b/ubuntu22.04/base-dependencies.txt
-# on Ubuntu 20.04, use : ./pkglist2deburl.sh -m "fr.archive.ubuntu.com/ubuntu/" base-dependencies.txt
+# today (sept. 2023) on Ubuntu 20.04, use : ./pkglist2deburl.sh -m "fr.archive.ubuntu.com/ubuntu/" base-dependencies.txt
+# today (sept. 2023) on Debian 12, use : ./pkglist2deburl.sh base-dependencies.txt
 
 # Process command line arguments
 while getopts ":m:" opt; do
